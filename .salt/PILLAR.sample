@@ -16,8 +16,14 @@
 # but lists are overidden
 makina-projects.projectname:
   data:
-    opt: value
-    password: SecretToBeChangedInsidePillar
+    domain: xxx.net
+    token: "xxx"
+    records:
+      - "a.xxx.net."
+      - "www.xxx.net."
+      - "*.www.xxx.net."
+      - "xxx.net."
+ 
   env_defaults:
     dev:
       opt: value2
