@@ -19,10 +19,10 @@ makina-projects.projectname:
     domain: xxx.net
     token: "xxx"
     records:
-      - "a.xxx.net."
-      - "www.xxx.net."
-      - "*.www.xxx.net."
-      - "xxx.net."
+      - "a.xxx"
+      - "www"
+      - "*.www."
+      - "@"
  
   env_defaults:
     dev:
